@@ -1,6 +1,6 @@
 This is a Java program that demonstrates how to read, search, and validate information from a JSON API response. It uses the java.net.HttpURLConnection class to make a GET request to a specified URL and retrieves the JSON response. The program then parses the JSON data using the org.json library to extract and validate specific fields.
 
-Installation
+## Installation
 To run this program, you need to have Java Development Kit (JDK) and an Integrated Development Environment (IDE) like IntelliJ IDEA installed on your system. Follow the steps below to set up the environment:
 
 Java Development Kit (JDK): Ensure that you have Java JDK installed on your machine. You can download the latest JDK version from the Oracle website (https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and follow the installation instructions.
@@ -18,7 +18,7 @@ Set Up Dependencies: The program uses the org.json library for parsing JSON data
 It will automatically add dependency in the .iml file as shown below.
 ![img_3.png](img_3.png)
 
-Usage
+## Usage
 Once the project is set up in IntelliJ IDEA, follow these steps to run the program:
 
 Open the url.java file in the project.
@@ -27,10 +27,18 @@ Run the program by clicking the green "Play" button next to the main method or r
 The program will make a GET request to the specified URL, parse the JSON response, and perform text validations.
 The results will be displayed in the console, indicating whether the validations passed or failed.
 
-Dependencies
+## Dependencies
 This project uses the following external library for JSON parsing:
 
 org.json: A simple JSON library for Java. It provides classes for parsing, manipulating, and converting JSON data.
+
+## References
+
+- How to read data from live url using java by Deep Singh: This project includes code snippets and concepts learned from the Java Programming Tutorial series by Deep. The tutorial videos can be found on [YouTube](https://www.youtube.com/watch?v=E0x8Xk4OZCIX).
+
+- Used Stack Overflow for array related code.The link can be accessed on https://stackoverflow.com/questions/33932285/searching-json-string-using-java
+
+
 
 Feel free to reach out if you have any questions or need further assistance.
 
