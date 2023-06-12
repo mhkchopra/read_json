@@ -67,10 +67,6 @@ public class url {
                 System.out.println("Validation for text 3: Failed");
             }
 
-            // Print the retrieved values
-            System.out.println("Name 1: " + name1);
-            System.out.println("CanRelist: " + canRelist);
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (JSONException e) {
