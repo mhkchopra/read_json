@@ -27,7 +27,20 @@ Run the program by clicking the green "Play" button next to the main method or r
 The program will make a GET request to the specified URL, parse the JSON response, and perform text validations.
 The results will be displayed in the console, indicating whether the validations passed or failed.
 
-Dependencies
+## Dependencies
 This project uses the following external library for JSON parsing:
 
-org.json: A simple JSON library for Java. It provides classes for parsing, manipulating, and converting JSON data. The library is included as a dependency in the build.gradle file.
+org.json: A simple JSON library for Java. It provides classes for parsing, manipulating, and converting JSON data.
+
+## References
+
+- How to read data from live url using java by Deep Singh: This project includes code snippets and concepts learned from the Java Programming Tutorial series by Deep. The tutorial videos can be found on [YouTube](https://www.youtube.com/watch?v=E0x8Xk4OZCIX).
+
+- Used Stack Overflow for array related code.The link can be accessed on https://stackoverflow.com/questions/33932285/searching-json-string-using-java
+
+
+
+Feel free to reach out if you have any questions or need further assistance.
+
+
+
