@@ -30,9 +30,4 @@ The results will be displayed in the console, indicating whether the validations
 Dependencies
 This project uses the following external library for JSON parsing:
 
-org.json: A simple JSON library for Java. It provides classes for parsing, manipulating, and converting JSON data.
-
-Feel free to reach out if you have any questions or need further assistance.
-
-
-
+org.json: A simple JSON library for Java. It provides classes for parsing, manipulating, and converting JSON data. The library is included as a dependency in the build.gradle file.
